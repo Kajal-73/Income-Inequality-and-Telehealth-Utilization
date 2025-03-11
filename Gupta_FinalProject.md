@@ -4723,7 +4723,7 @@ print(bal_after)
 love.plot(m_out, stats = "mean.diffs", threshold = 0.1)
 ```
 
-![](Plotsunnamed-chunk-3-1.png)<!-- -->
+![](Plots/unnamed-chunk-3-1.png)<!-- -->
 
 ## OUTCOME ANALYSIS
 
