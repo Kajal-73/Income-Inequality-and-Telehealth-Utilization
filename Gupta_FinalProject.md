@@ -4723,7 +4723,7 @@ print(bal_after)
 love.plot(m_out, stats = "mean.diffs", threshold = 0.1)
 ```
 
-![](Gupta_FinalProject_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](Plotsunnamed-chunk-3-1.png)<!-- -->
 
 ## OUTCOME ANALYSIS
 
@@ -4795,7 +4795,7 @@ ggplot(matched_data, aes(x = VIRAPP12M_A, fill = as.factor(INCWRKO_A))) +
   theme_minimal()
 ```
 
-![](Gupta_FinalProject_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](Plots/unnamed-chunk-4-1.png)<!-- -->
 
 ## SENSITIVITY ANALYSIS
 
@@ -4893,4 +4893,4 @@ lines(Gamma_values, upper_bounds, type = "b", col = "salmon", pch = 19)
 legend("right", legend = c("Lower Bound", "Upper Bound"), col = c("skyblue", "salmon"), pch = 19)
 ```
 
-![](Gupta_FinalProject_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](Plots/unnamed-chunk-6-1.png)<!-- -->
